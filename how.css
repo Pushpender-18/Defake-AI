@@ -28,6 +28,10 @@ body {
 	padding: 12px 30px;
 }
 
+.banner-img {
+	margin: 40px 0px;
+}
+
 .banner button:hover {
 	background-color: #4951f1;
 }
@@ -65,6 +69,8 @@ body {
 
 .feature-card > .icon {
 	align-self: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 .feature-card > .heading {
