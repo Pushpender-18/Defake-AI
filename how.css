@@ -1,0 +1,117 @@
+body {
+	font-family: 'Inter', serif;
+}
+
+.banner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner > .heading {
+	font-family: 'Archivo';
+}
+
+.banner > .sub-heading {
+	font-size: 0.8rem;
+	color: #a7abb1;
+}
+
+.banner button {
+	background-color: #636AE8;
+	color: white;
+	border: none;
+	font-weight: 600;
+	border-radius: 12px;
+	padding: 12px 30px;
+}
+
+.banner button:hover {
+	background-color: #4951f1;
+}
+
+.feature-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.feature-container > .heading {
+	font-size: 2.8rem;
+}
+
+.feature-container > .features {
+	width: 97%;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.feature-card {
+	width: 24vw;
+	height: 54vh;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.051);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-around;
+	padding-left: 28px;
+}
+
+.feature-card > .icon {
+	align-self: center;
+}
+
+.feature-card > .heading {
+	font-weight: 800;
+	font-size: 1.5rem;
+	font-family: 'Archivo', serif;
+}
+
+.feature-card > .sub-heading {
+	font-size: 0.8rem;
+	font-weight: 800;
+	color: #a7abb1;
+}
+
+.feature-card > .content {
+	font-size: 0.8rem;
+	width: 23rem;
+	color: #808387;
+}
+
+.back-arrow > button {
+	height: 50px;
+	width: 50px;
+	border: none;
+	border-radius: 25px;
+	background-color: #ebecfb;
+}
+
+.back-arrow > button:hover {
+	background-color: #E0E1FA;
+}
+
+.explore-features {
+	margin-top: 40px;
+}
+
+.explore-features > button {
+	width: 15vw;
+	height: 48px;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: white;
+	background-color: #636AE8;
+}
+
+.explore-features > button:hover {
+	background-color: #4951f1;
+}
